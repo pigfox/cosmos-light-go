@@ -1,0 +1,10 @@
+{
+  "endpoint": "https://rpc.osmotest5.osmosis.zone",
+  "chain_id": "osmo-test-5",
+  "cometbft_version": "0.38.17",
+  "captured_at_utc": "2026-08-11T18:56:17Z",
+  "query_height": 68199362,
+  "header_height": 68199363,
+  "foreign_validator_height": 67301783,
+  "store": "bank"
+}
