@@ -40,11 +40,11 @@ const (
 
 // The captured fixture files, relative to testdata/.
 const (
-	fileCaptureMeta     = "capture.json"
-	fileSignedHeader    = "signed_header.json"
-	fileValidators      = "validators.json"
-	fileMembership      = "membership_proof.json"
-	fileNonMembership   = "nonmembership_proof.json"
+	fileCaptureMeta   = "capture.json"
+	fileSignedHeader  = "signed_header.json"
+	fileValidators    = "validators.json"
+	fileMembership    = "membership_proof.json"
+	fileNonMembership = "nonmembership_proof.json"
 
 	// fileForeignValidators is a validator set from a DIFFERENT height of the
 	// same chain. It exists only so plant P7 can substitute a real set rather
@@ -55,9 +55,9 @@ const (
 	// The capture REFUSES to write it if it hashes the same as the header's
 	// own set, because an identical set would make P7 pass by accident.
 	fileForeignValidators = "foreign_validators.json"
-	testdataDir         = "testdata"
-	captureEnabledEnv   = "COSMOS_LIGHT_CAPTURE"
-	captureEnabledValue = "1"
+	testdataDir           = "testdata"
+	captureEnabledEnv     = "COSMOS_LIGHT_CAPTURE"
+	captureEnabledValue   = "1"
 )
 
 // captureEndpointEnv lets the capture test be pointed at a different node
